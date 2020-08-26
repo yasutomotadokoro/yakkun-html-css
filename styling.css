@@ -105,3 +105,19 @@ img#enoshima {
     height: 30%;
     width: 100%;
 }
+@media screen and (max-width: 375px){
+    .example p {
+        font-family: serif;
+        font-size: 23px;
+        position: absolute;
+        color: yellow;
+        top: 8px;
+        left: 15%;
+        font-weight: bold;
+    }
+    #box h1{
+        font-size: 13px;
+        margin-top: 0;
+        padding-top: 19px;
+    }
+}
